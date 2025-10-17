@@ -1,10 +1,10 @@
 # Genealogy Research Skill for Claude
 
-A professional genealogy research skill converted from the BMAD Method genealogy assistant to Claude's skill format.
+A genealogy research tool in Claude's skill format.
 
 ## Overview
 
-This skill provides Claude with specialized knowledge and workflows for professional genealogy research following the Genealogical Proof Standard (GPS) and Evidence Explained citation methodology.
+This skill provides Claude with specialized knowledge and workflows for genealogy research following the Genealogical Proof Standard (GPS) and Evidence Explained citation methodology.
 
 ## Skill Structure
 
@@ -197,26 +197,9 @@ All outputs follow professional genealogical standards and are ready for:
 **Source:** BMAD Method genealogy-assistant module
 **Converted by:** Claude with skill-creator guidance
 
-## Contributing
-
-Contributions are welcome! If you'd like to improve this skill:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Make your changes
-4. Commit your changes (`git commit -m 'Add some improvement'`)
-5. Push to the branch (`git push origin feature/improvement`)
-6. Open a Pull Request
-
-When contributing, please:
-- Maintain professional genealogical standards
-- Follow Evidence Explained citation methodology
-- Ensure GPS compliance in workflows
-- Test changes with example use cases
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This skill was created from a genealogy research project. Please respect professional genealogical standards and properly attribute sources when using the workflows and methodologies contained herein.
 
 ## Support
 
@@ -224,13 +207,6 @@ For questions about:
 - **Genealogy methodology**: Refer to professional resources (BCG, NGS, Evidence Explained)
 - **Skill usage**: Ask Claude for help - the skill is designed to guide you
 - **Professional standards**: See references/ files for detailed guidelines
-- **Issues or bugs**: Open an issue in the GitHub repository
-
-## Acknowledgments
-
-- Based on the Genealogical Proof Standard developed by the Board for Certification of Genealogists (BCG)
-- Citation formats follow Evidence Explained by Elizabeth Shown Mills
-- Converted from BMAD Method genealogy-assistant module
 
 ---
 
