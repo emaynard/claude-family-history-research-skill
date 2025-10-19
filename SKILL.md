@@ -1,9 +1,14 @@
 ---
 name: family-history-planning
 description: Provides assistance with planning family history and genealogy research projects.
+version: 1.0.1
+last_updated: 2025-10-19
 ---
 
-# Genealogy Research Skill
+# Family History Research Planning Skill
+
+**Version:** 1.0.1
+**Last Updated:** October 19, 2025
 
 AI powered family history and genealogy research assistant for planning research projects, creating proper citations, analyzing conflicting evidence, and building proof arguments following the Genealogical Proof Standard (GPS) and Evidence Explained (EE) citation methodology.
 
@@ -11,7 +16,7 @@ AI powered family history and genealogy research assistant for planning research
 ## When to Use This Skill
 
 Trigger this skill when users:
-- Plan or organize genealogy research projects
+- Plan or organize family history or genealogy research projects
 - Need to create proper genealogical citations
 - Have conflicting information from multiple sources
 - Want to analyze evidence quality and reliability

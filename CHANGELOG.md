@@ -7,11 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2025-10-19
+
+### Changed
+- Renamed skill from "genealogy-research" to "family-history-planning"
+- Updated all documentation to use "family history research" terminology
+- Refined skill description to emphasize planning assistance
+- Updated main titles in SKILL.md, README.md, and template files
+- Added version tracking to SKILL.md frontmatter and header
+
 ## [1.0.0] - 2025-10-17
 
 ### Added
-- Initial release of Genealogy Research Skill for Claude
-- Core skill file (SKILL.md) with procedural knowledge for genealogy research
+- Initial release of Family History Research Planning Skill for Claude
+- Core skill file (SKILL.md) with procedural knowledge for family history and genealogy research
 - Research planning workflow with GPS framework integration
 - Citation creation system supporting 14+ source types
 - Evidence analysis and conflict resolution framework
@@ -35,5 +44,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Conversion notes from BMAD Method genealogy-assistant module
 - Progressive disclosure architecture for efficient context usage
 
-[Unreleased]: https://github.com/yourusername/genealogy-research-skill/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/yourusername/genealogy-research-skill/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/yourusername/genealogy-research-skill/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/yourusername/genealogy-research-skill/releases/tag/v1.0.0

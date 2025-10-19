@@ -1,4 +1,4 @@
-# Genealogy Research Log
+# Family History Research Log
 
 **Date:** [DATE]
 **Researcher:** [YOUR NAME]

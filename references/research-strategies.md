@@ -1,6 +1,6 @@
-# Genealogical Research Strategies
+# Family History Research Strategies
 
-Advanced research methodologies and strategic approaches for effective genealogy research.
+Advanced research methodologies and strategic approaches for effective family history and genealogy research.
 
 ## Core Research Principles
 

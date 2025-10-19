@@ -1,4 +1,4 @@
-# Genealogy Research Plan
+# Family History Research Plan
 
 **Date Created:** [DATE]
 **Researcher:** [YOUR NAME]

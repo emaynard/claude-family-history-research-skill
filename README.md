@@ -1,10 +1,10 @@
-# Genealogy Research Skill for Claude
+# Family History Research Planning Skill for Claude
 
-A genealogy research tool in Claude's skill format.
+A family history and genealogy research tool in Claude's skill format.
 
 ## Overview
 
-This skill provides Claude with specialized knowledge and workflows for genealogy research following the Genealogical Proof Standard (GPS) and Evidence Explained citation methodology.
+This skill provides Claude with specialized knowledge and workflows for family history and genealogy research following the Genealogical Proof Standard (GPS) and Evidence Explained citation methodology.
 
 ## Skill Structure
 
@@ -27,7 +27,7 @@ genealogy-research-skill/
 ## What This Skill Does
 
 ### 1. Research Planning
-Guides users through creating structured genealogy research plans with:
+Guides users through creating structured family history research plans with:
 - Specific research questions
 - Source identification
 - Search strategies
@@ -67,7 +67,7 @@ Creates professional research logs documenting:
 ## When Claude Uses This Skill
 
 Claude automatically loads this skill when users:
-- Ask about genealogy research
+- Ask about family history or genealogy research
 - Mention family history or ancestry
 - Need help with genealogical citations
 - Have conflicting information from multiple sources
@@ -96,7 +96,7 @@ Claude automatically loads this skill when users:
 ## How to Use This Skill
 
 ### As a User
-Simply ask Claude for help with genealogy research:
+Simply ask Claude for help with family history research:
 - "Help me plan research on my great-grandfather"
 - "Create a citation for this census record"
 - "I have conflicting birth dates - help me figure out which is right"
@@ -105,7 +105,7 @@ Simply ask Claude for help with genealogy research:
 Claude will load the skill automatically and guide you through the appropriate workflow.
 
 ### As Claude
-When genealogy research is detected:
+When family history or genealogy research is detected:
 1. Load SKILL.md for procedural guidance
 2. Load specific reference files as needed:
    - `references/citation-templates.md` for citation help
@@ -210,4 +210,4 @@ For questions about:
 
 ---
 
-**Ready to start your genealogy research? Just ask Claude!**
+**Ready to start your family history research? Just ask Claude!**
