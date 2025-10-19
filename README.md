@@ -1,6 +1,22 @@
 # Family History Research Planning Skill for Claude
 
-A family history and genealogy research tool in Claude's skill format.
+Claude Skill to provide assistance with planning family history and genealogy research projects.
+
+## ⚠️ Privacy and Responsible AI Use
+
+**Protect Private Information:** When using AI tools for genealogy research, take reasonable measures to safeguard private and sensitive information about living individuals and recently deceased persons.
+
+### Best Practices:
+- **DO NOT** share personal identifying information (Social Security Numbers, birth certificates, addresses of living people, medical records, or other sensitive data) with AI systems
+- **DO NOT** upload documents containing information about living individuals or recently deceased persons (generally within the last 75-100 years)
+- **DO** remove or redact private information before sharing research materials with AI
+- **DO** focus on historical records and deceased individuals when using AI assistance
+- **DO** verify all AI-generated information with primary sources
+- **DO** comply with applicable privacy laws, terms of service, and ethical genealogical standards
+
+This skill follows the principles of the [Coalition for Responsible AI in Genealogy (CRAIGEN)](https://craigen.org), which promotes accuracy, privacy protection, disclosure, education, and compliance in genealogical AI use.
+
+**Remember:** AI systems may retain and learn from information you provide. Always prioritize privacy and use discretion when sharing genealogical data.
 
 ## Overview
 
@@ -98,8 +114,8 @@ Claude automatically loads this skill when users:
 ### Quick Start (Experienced Users)
 
 1. Download the latest release from [Releases](https://github.com/emaynard/genealogy-research-skill/releases)
-2. Extract the ZIP file
-3. **Claude.ai users**: Enable Skills in Settings > Capabilities, then upload the skill folder
+2. **Claude.ai users**: Enable Skills in Settings > Capabilities, then upload the skill folder
+3. **Claude Code users**: Extract the ZIP file
 4. **Claude Code users**: Move the `family-history-planning` folder to `~/.claude/skills/`
 5. Start using: Just ask Claude about family history research!
 
@@ -135,8 +151,9 @@ Claude automatically loads this skill when users:
 3. **Upload the Skill**
    - In Claude.ai, go to **Settings > Skills**
    - Click **"Add Skill"** or **"Upload Skill"**
-   - Select the extracted `family-history-planning` folder
+   - Select the downloaded `family-history-planning-vX.X.X.zip` ZIP file   
    - The skill will be uploaded and enabled automatically
+   - Your skill will appear in your Skills list and can be toggled on or off
 
 4. **Verify Installation**
    - Start a new conversation with Claude

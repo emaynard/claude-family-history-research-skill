@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.3] - 2025-10-19
+
+### Added
+- **Privacy and Responsible AI Use guidance** following CRAIGEN principles
+  - Prominent privacy warning section in README.md
+  - Best practices for protecting private genealogical information
+  - Clear DO/DO NOT guidelines for sharing data with AI systems
+  - Reference to Coalition for Responsible AI in Genealogy
+  - Privacy notice added to SKILL.md header
+
 ## [1.0.2] - 2025-10-19
 
 ### Added
@@ -95,7 +105,8 @@ This skill was converted from a BMAD Method genealogy assistant module that incl
 - Checklist validation integrated into workflows
 
 
-[Unreleased]: https://github.com/yourusername/genealogy-research-skill/compare/v1.0.2...HEAD
+[Unreleased]: https://github.com/yourusername/genealogy-research-skill/compare/v1.0.3...HEAD
+[1.0.3]: https://github.com/yourusername/genealogy-research-skill/compare/v1.0.2...v1.0.3
 [1.0.2]: https://github.com/yourusername/genealogy-research-skill/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/yourusername/genealogy-research-skill/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/yourusername/genealogy-research-skill/releases/tag/v1.0.0
