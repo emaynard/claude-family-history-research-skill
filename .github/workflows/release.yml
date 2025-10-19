@@ -1,5 +1,10 @@
 name: Create Release Package
 
+permissions:
+  contents: write
+  packages: write
+  actions: write
+
 on:
   release:
     types: [created]
