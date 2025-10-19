@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 2025-10-19
+
+### Added
+- Comprehensive installation instructions in README.md
+- Quick Start section for experienced users
+- Detailed step-by-step installation guide for Claude.ai and Claude Code
+- Prerequisites, verification steps, and troubleshooting section
+
+### Changed
+- Moved BMAD Method conversion details from README.md to CHANGELOG.md
+- Improved wording in 'When Claude Uses This Skill' section
+- Streamlined README for better user-facing information
+
 ## [1.0.1] - 2025-10-19
 
 ### Changed
@@ -82,6 +95,7 @@ This skill was converted from a BMAD Method genealogy assistant module that incl
 - Checklist validation integrated into workflows
 
 
-[Unreleased]: https://github.com/yourusername/genealogy-research-skill/compare/v1.0.1...HEAD
+[Unreleased]: https://github.com/yourusername/genealogy-research-skill/compare/v1.0.2...HEAD
+[1.0.2]: https://github.com/yourusername/genealogy-research-skill/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/yourusername/genealogy-research-skill/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/yourusername/genealogy-research-skill/releases/tag/v1.0.0
