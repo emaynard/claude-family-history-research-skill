@@ -68,10 +68,10 @@ Creates professional research logs documenting:
 
 Claude automatically loads this skill when users:
 - Ask about family history or genealogy research
-- Mention family history or ancestry
+- Mention family history, genealogy or ancestry
 - Need help with genealogical citations
 - Have conflicting information from multiple sources
-- Ask about research planning or strategies
+- Ask about research planning methods or strategies
 - Reference census records, vital records, or historical documents
 - Need help analyzing evidence quality
 
@@ -116,42 +116,6 @@ When family history or genealogy research is detected:
 4. Follow workflows systematically
 5. Apply professional standards throughout
 
-## Conversion from BMAD Method
-
-This skill was converted from a BMAD Method genealogy assistant module that included:
-- 3 specialized agents (Research Coordinator, Source Analyst, Evidence Evaluator)
-- 4 workflows (research planning, citation generation, evidence analysis, research logging)
-- Professional genealogical standards
-- Template-based document generation
-
-### Key Differences from BMAD
-
-**BMAD Structure:**
-- Multiple agent files with personas and menus
-- Separate workflow files (YAML config + instructions + checklists)
-- Template variable substitution
-- Extensive step-by-step XML-tagged instructions
-
-**Claude Skill Structure:**
-- Single SKILL.md with procedural knowledge
-- Reference files for detailed information
-- Template files in assets
-- Concise, focused guidance
-
-### What Was Preserved
-- All professional genealogical knowledge
-- GPS framework and requirements
-- Evidence Explained citation standards
-- Conflict resolution methodologies
-- Research strategies
-- Template structures
-
-### What Was Adapted
-- Agent personas converted to procedural workflows
-- Multi-file workflows consolidated
-- XML-tagged instructions converted to markdown
-- Variable placeholders preserved in templates
-- Checklist validation integrated into workflows
 
 ## Professional Standards Compliance
 
