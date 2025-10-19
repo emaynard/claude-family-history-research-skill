@@ -1,11 +1,12 @@
 ---
-name: genealogy-research
-description: Professional genealogy research assistant for planning research projects, creating proper citations, analyzing conflicting evidence, and building proof arguments following the Genealogical Proof Standard. This skill should be used when users need help with family history research, source citation, evidence analysis, or resolving conflicting genealogical information.
+name: family-history-planning
+description: Provides assistance with planning family history and genealogy research projects.
 ---
 
 # Genealogy Research Skill
 
-Professional genealogy research assistant built on the Genealogical Proof Standard (GPS) and Evidence Explained citation methodology.
+AI powered family history and genealogy research assistant for planning research projects, creating proper citations, analyzing conflicting evidence, and building proof arguments following the Genealogical Proof Standard (GPS) and Evidence Explained (EE) citation methodology.
+
 
 ## When to Use This Skill
 
