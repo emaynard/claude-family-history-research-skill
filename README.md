@@ -34,7 +34,8 @@ genealogy-research-skill/
 │   └── research-strategies.md           # Advanced research methodologies
 └── assets/                               # Templates for output documents
     └── templates/
-        ├── research-plan-template.md    # Research project planning
+        ├── research-plan-template.md    # Simplified research project planning (practical)
+        ├── research-plan-guidance.md    # Detailed guidance and best practices
         ├── citation-template.md         # Citation library entry
         ├── evidence-analysis-template.md # Evidence analysis report
         └── research-log-template.md     # Research session documentation
@@ -49,6 +50,10 @@ Guides users through creating structured family history research plans with:
 - Search strategies
 - GPS framework integration
 - Timeline and milestones
+
+**Templates:**
+- `research-plan-template.md` - Simplified, practical template for day-to-day research work
+- `research-plan-guidance.md` - Comprehensive guidance with examples, checklists, and best practices
 
 ### 2. Citation Creation
 Generates properly formatted genealogical citations for:

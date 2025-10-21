@@ -42,7 +42,7 @@ Guide researchers through creating structured research plans that incorporate pr
 5. Create timeline with milestones
 6. Establish success criteria and proof requirements
 
-**Output:** Create a research plan document using the template in `assets/templates/research-plan-template.md`
+**Output:** Create a research plan document using the template in `assets/templates/research-plan-template.md` (simplified for practical use). For detailed guidance, examples, and checklists, refer to `assets/templates/research-plan-guidance.md`
 
 ### 2. Citation Creation
 
@@ -243,7 +243,8 @@ For detailed guidance on specific topics, load these reference files as needed:
 
 Output templates are available in `assets/templates/`:
 
-- `research-plan-template.md` - Research project planning
+- `research-plan-template.md` - Simplified research project planning (practical, day-to-day use)
+- `research-plan-guidance.md` - Comprehensive guidance with examples and best practices
 - `citation-template.md` - Citation library entry
 - `evidence-analysis-template.md` - Evidence analysis report
 - `research-log-template.md` - Research session documentation
