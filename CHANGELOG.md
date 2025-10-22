@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.5] - 2025-10-21
+
+### Changed
+- **Documentation reorganization**: Moved `research-log-guidance.md` and `research-plan-guidance.md` from `assets/templates/` to `references/`
+  - Clearer distinction between simplified templates and comprehensive references
+  - Better information architecture for users seeking detailed methodology
+  - Guidance documents now grouped with other reference materials
+- Updated SKILL.md references to reflect new documentation locations
+- Updated `.github/workflows/release.yml` for v1.0.5 release process
+
+## [1.0.4] - 2025-10-21
+
+### Added
+- **Research Log Template Refactoring**
+  - Simplified `research-log-template.md` for practical daily documentation
+  - New `research-log-guidance.md` with comprehensive methodology
+
+### Changed
+- Template and reference structure mirrors successful v1.0.3 approach
+
 ## [1.0.3] - 2025-10-19
 
 ### Added
@@ -105,8 +125,10 @@ This skill was converted from a BMAD Method genealogy assistant module that incl
 - Checklist validation integrated into workflows
 
 
-[Unreleased]: https://github.com/yourusername/genealogy-research-skill/compare/v1.0.3...HEAD
-[1.0.3]: https://github.com/yourusername/genealogy-research-skill/compare/v1.0.2...v1.0.3
-[1.0.2]: https://github.com/yourusername/genealogy-research-skill/compare/v1.0.1...v1.0.2
-[1.0.1]: https://github.com/yourusername/genealogy-research-skill/compare/v1.0.0...v1.0.1
-[1.0.0]: https://github.com/yourusername/genealogy-research-skill/releases/tag/v1.0.0
+[Unreleased]: https://github.com/emaynard/claude-family-history-research-skill/compare/v1.0.5...HEAD
+[1.0.5]: https://github.com/emaynard/claude-family-history-research-skill/compare/v1.0.4...v1.0.5
+[1.0.4]: https://github.com/emaynard/claude-family-history-research-skill/compare/v1.0.3...v1.0.4
+[1.0.3]: https://github.com/emaynard/claude-family-history-research-skill/compare/v1.0.2...v1.0.3
+[1.0.2]: https://github.com/emaynard/claude-family-history-research-skill/compare/v1.0.1...v1.0.2
+[1.0.1]: https://github.com/emaynard/claude-family-history-research-skill/compare/v1.0.0...v1.0.1
+[1.0.0]: https://github.com/emaynard/claude-family-history-research-skill/releases/tag/v1.0.0
