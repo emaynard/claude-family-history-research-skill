@@ -1,31 +1,38 @@
 ---
 name: family-history-planning
 description: Provides assistance with planning family history and genealogy research projects.
-version: 1.0.3
-last_updated: 2025-10-19
+version: 1.0.5
+last_updated: 2025-10-21
 ---
 
 # Family History Research Planning Skill
 
-**Version:** 1.0.3
-**Last Updated:** October 19, 2025
+**Version:** 1.0.5
+**Last Updated:** October 21, 2025
 
-## ⚠️ Privacy Notice
+## CRITICAL: Always Start With Planning
 
-This skill follows [CRAIGEN](https://craigen.org) principles for responsible AI use in genealogy. When using this skill, protect private information about living individuals and recently deceased persons. Do not share sensitive personal data (SSNs, addresses, medical records) with AI systems. Focus on historical records and verify all AI-generated information with primary sources.
+**Before using any web search or research tools, ALWAYS:**
 
-AI powered family history and genealogy research assistant for planning research projects, creating proper citations, analyzing conflicting evidence, and building proof arguments following the Genealogical Proof Standard (GPS) and Evidence Explained (EE) citation methodology.
+1. **Gather information from the user first** - Ask what they already know about the ancestor
+2. **Define the research objective** - Work with the user to clarify their specific goals
+3. **Create a research plan** - Use the Research Planning Workflow below
+4. **Get user approval** - Confirm the plan before executing searches
 
+**DO NOT immediately search the web or use research tools when a user mentions an ancestor.**
+
+The value of professional genealogy research is in the systematic planning and methodology, not in rushing to find records. Take time to build a proper foundation.
 
 ## When to Use This Skill
 
 Trigger this skill when users:
-- Plan or organize family history or genealogy research projects
-- Need to create proper genealogical citations
-- Have conflicting information from multiple sources
+- **Ask for help researching an ancestor** → START with research planning workflow, gather known info
+- Plan or organize genealogy research projects → Use research planning workflow
+- Need to create proper genealogical citations → Use citation workflow
+- Have conflicting information from multiple sources → Use evidence analysis workflow
 - Want to analyze evidence quality and reliability
 - Need to build proof arguments for genealogical conclusions
-- Ask for help with census records, vital records, or other historical documents
+- Ask for help with census records, vital records, or other historical documents → First understand context
 - Need guidance on research strategies or methodologies
 
 ## Core Capabilities
@@ -133,6 +140,30 @@ Document research activities systematically to avoid duplication and track progr
 
 **Output:** Research log entry using template in `assets/templates/research-log-template.md`
 
+## Default Workflow: Start Every Research Request This Way
+
+When a user asks for help researching an ancestor:
+
+**STEP 1: Information Gathering** (Always do this first)
+- Ask what they already know (name, dates, locations)
+- Ask what records they've already found
+- Ask what specific questions they want answered
+- Ask about any conflicting information they've encountered
+
+**STEP 2: Research Planning** 
+- Work through the Research Planning Workflow (see below)
+- Create a structured plan document
+- Prioritize sources and strategies
+- Get user approval of the plan
+
+**STEP 3: Execution** (Only after Steps 1-2)
+- Follow the approved research plan
+- Use appropriate tools (web_search, etc.)
+- Document findings systematically
+- Create proper citations
+
+**Never skip to Step 3.**
+
 ## Procedural Guidelines
 
 ### Research Planning Workflow
@@ -145,9 +176,14 @@ To plan a new research project:
 4. **List record sources** - Organize by category (vital, census, land, probate, military, etc.)
 5. **Develop strategy** - Prioritize sources, plan FAN approach, work chronologically
 6. **Set timeline** - Break into phases with milestones
+**When executing steps 5-6 (Develop strategy & Set timeline):**
+- Provide links to research resources for the specific location
+- **Prioritize:** FamilySearch Wiki and LDSgenealogy.com above all other resources
+- Include links to relevant county/state pages
+- Identify record repositories and their online availability
 7. **Apply GPS framework** - Ensure plan addresses all five GPS elements
 8. **Define success criteria** - What constitutes adequate proof?
-9. **Create next actions** - List 5-10 immediate concrete steps
+9.  **Create next actions** - List 5-10 immediate concrete steps
 
 Reference `references/research-strategies.md` for detailed methodologies.
 
@@ -238,16 +274,18 @@ For detailed guidance on specific topics, load these reference files as needed:
 - `references/evidence-evaluation.md` - Detailed frameworks for conflict resolution
 - `references/research-strategies.md` - Advanced research methodologies
 - `references/gps-guidelines.md` - Genealogical Proof Standard detailed requirements
-
+- `research-log-guidance.md` - Comprehensive guidance with examples and best practices
+- `research-plan-guidance.md` - Comprehensive guidance with examples and best practices
+- 
 ## Templates
 
 Output templates are available in `assets/templates/`:
 
 - `research-plan-template.md` - Simplified research project planning (practical, day-to-day use)
-- `research-plan-guidance.md` - Comprehensive guidance with examples and best practices
 - `citation-template.md` - Citation library entry
 - `evidence-analysis-template.md` - Evidence analysis report
 - `research-log-template.md` - Research session documentation
+
 
 ## Best Practices
 

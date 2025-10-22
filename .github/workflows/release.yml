@@ -35,9 +35,9 @@ jobs:
 
           # Copy skill files
           cp SKILL.md dist/genealogy-research-skill/
-          cp README.md dist/genealogy-research-skill/
-          cp LICENSE dist/genealogy-research-skill/
-          cp CHANGELOG.md dist/genealogy-research-skill/
+          # cp README.md dist/genealogy-research-skill/
+          # cp LICENSE dist/genealogy-research-skill/
+          # cp CHANGELOG.md dist/genealogy-research-skill/
 
           # Copy directories
           cp -r references dist/genealogy-research-skill/

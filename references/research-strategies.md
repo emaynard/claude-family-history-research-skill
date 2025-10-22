@@ -142,6 +142,12 @@ Follow ancestors through geographic movement.
 
 Understand the history and records of each location.
 
+**Priority Resources (use these first):**
+- [FamilySearch Wiki](https://www.familysearch.org/wiki/) - Comprehensive locality guides, record information, and research strategies for locations worldwide
+- [LDSgenealogy.com](https://ldsgenealogy.com/) - State-specific research guides and record information
+  - Example: [Pennsylvania Research](https://ldsgenealogy.com/PA/)
+  - Includes county formation, record repositories, and research strategies
+
 **Essential Background:**
 - County formation history (which county existed when?)
 - Record losses (fires, floods, wars)
