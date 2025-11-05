@@ -1,8 +1,6 @@
 ---
 name: family-history-planning
 description: Provides assistance with planning family history and genealogy research projects.
-version: 1.0.5
-last_updated: 2025-10-21
 ---
 
 # Family History Research Planning Skill
