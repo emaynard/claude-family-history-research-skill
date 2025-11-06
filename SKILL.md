@@ -5,8 +5,8 @@ description: Provides assistance with planning family history and genealogy rese
 
 # Family History Research Planning Skill
 
-**Version:** 1.0.5
-**Last Updated:** October 21, 2025
+**Version:** 1.0.6
+**Last Updated:** November 6, 2025
 
 ## CRITICAL: Always Plan Before Researching
 
