@@ -5,33 +5,39 @@ description: Provides assistance with planning family history and genealogy rese
 
 # Family History Research Planning Skill
 
-**Version:** 1.0.5
-**Last Updated:** October 21, 2025
+**Version:** 1.0.6
+**Last Updated:** November 6, 2025
 
-## CRITICAL: Always Start With Planning
+## CRITICAL: Always Plan Before Researching
 
-**Before using any web search or research tools, ALWAYS:**
+**ABSOLUTELY PROHIBITED: DO NOT perform unsolicited web searches or research.**
+
+When a user mentions an ancestor or asks for help researching, you MUST follow this sequence:
 
 1. **Gather information from the user first** - Ask what they already know about the ancestor
 2. **Define the research objective** - Work with the user to clarify their specific goals
 3. **Create a research plan** - Use the Research Planning Workflow below
-4. **Get user approval** - Confirm the plan before executing searches
+4. **Present the plan to the user** - Give them a structured plan with prioritized sources and search strategies
 
-**DO NOT immediately search the web or use research tools when a user mentions an ancestor.**
+**NEVER jump immediately to web searches when a user mentions an ancestor.**
 
-The value of professional genealogy research is in the systematic planning and methodology, not in rushing to find records. Take time to build a proper foundation.
+The value of professional genealogy research is in systematic planning and methodology, not in rushing to find records. Always build a proper foundation through planning first.
+
+**AFTER creating a research plan:** If the user explicitly requests that you execute the research (perform searches), you may do so, but ONLY by following the approved research plan systematically. Document all searches, findings, and citations as you go.
 
 ## When to Use This Skill
 
 Trigger this skill when users:
-- **Ask for help researching an ancestor** → START with research planning workflow, gather known info
+- **Ask for help researching an ancestor** → START with research planning workflow, gather known info, CREATE a plan first (do NOT search immediately)
 - Plan or organize genealogy research projects → Use research planning workflow
 - Need to create proper genealogical citations → Use citation workflow
 - Have conflicting information from multiple sources → Use evidence analysis workflow
 - Want to analyze evidence quality and reliability
 - Need to build proof arguments for genealogical conclusions
-- Ask for help with census records, vital records, or other historical documents → First understand context
-- Need guidance on research strategies or methodologies
+- Ask for help with census records, vital records, or other historical documents → Provide guidance and analysis
+- Need guidance on research strategies or methodologies → Teach concepts, create plans
+
+**Remember:** Always START with planning. Web searches and research execution are permitted ONLY AFTER a research plan is created AND the user explicitly requests execution.
 
 ## Core Capabilities
 
@@ -148,19 +154,23 @@ When a user asks for help researching an ancestor:
 - Ask what specific questions they want answered
 - Ask about any conflicting information they've encountered
 
-**STEP 2: Research Planning** 
+**STEP 2: Research Planning** (Required before any searches)
 - Work through the Research Planning Workflow (see below)
 - Create a structured plan document
 - Prioritize sources and strategies
-- Get user approval of the plan
+- Present the plan to the user
 
-**STEP 3: Execution** (Only after Steps 1-2)
-- Follow the approved research plan
-- Use appropriate tools (web_search, etc.)
-- Document findings systematically
-- Create proper citations
+**STEP 3: Research Execution** (ONLY if user explicitly requests it)
+- Follow the approved research plan systematically
+- Use appropriate tools (web_search, etc.) as directed by the plan
+- Document all searches (including negative results)
+- Create proper citations for all findings
+- Log all research activities
+- Report findings and analysis to the user
 
-**Never skip to Step 3.**
+**NEVER skip Steps 1 and 2 to jump directly to Step 3.**
+
+The user may choose to execute the plan themselves, or they may explicitly ask you to execute the research. Either approach is acceptable, but planning MUST come first.
 
 ## Procedural Guidelines
 
@@ -324,7 +334,7 @@ Output templates are available in `assets/templates/`:
 
 **User:** "I want to research my great-grandfather but don't know where to start."
 
-**Response:** Guide through research planning workflow. Define objective (identify parents? determine birth location?). Formulate specific research questions. List known information and gaps. Identify potential sources (census, vital records, probate, military). Develop search strategy with priorities. Create timeline. Apply GPS framework. Generate research plan document with concrete next actions.
+**Response:** Guide through research planning workflow. Define objective (identify parents? determine birth location?). Formulate specific research questions. List known information and gaps. Identify potential sources (census, vital records, probate, military). Develop search strategy with priorities. Create timeline. Apply GPS framework. Generate research plan document with concrete next actions. Present the plan to the user. If the user then explicitly requests "please execute this research plan," proceed with Step 3 (execution) using web_search and other tools systematically while documenting all activities.
 
 ## Writing Style
 
