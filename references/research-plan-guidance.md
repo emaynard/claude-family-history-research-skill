@@ -131,7 +131,7 @@ Research questions should be ranked by:
 - [ ] Bastardy bonds
 
 ### Newspapers and Publications
-- [ ] Obituaries
+- [ ] Obituaries (extract named relatives, relationship statements, residences, service/burial details, and source citation context; the [FinalNotes Obituary Research Guide](https://www.finalnotes.page/obituary-research-guide/) provides an obituary-specific checklist)
 - [ ] Marriage announcements
 - [ ] Birth announcements
 - [ ] Death notices
