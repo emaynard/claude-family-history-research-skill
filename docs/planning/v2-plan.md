@@ -5,6 +5,12 @@
 **Date:** 2026-07-18
 **Baseline:** v1.0.6 (SKILL.md body version; frontmatter unversioned per v1.0.6 policy)
 
+> **Delivery framing superseded:** the single-jump-to-2.0.0 release strategy in §5 has
+> been replaced by the incremental plan in `v1x-incremental-roadmap.md`. The FAN
+> specification (§3), drift-fix inventory (§2.3), restructure design (Option B, §4),
+> and frontmatter description draft (§5.3) remain the source of truth and are
+> referenced from the roadmap.
+
 ---
 
 ## 1. Vision Statement
